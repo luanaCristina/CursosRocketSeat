@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Curso Java Script Operadores</title>
+    </head>
+    <body>
+        <script>
+            var x = 10, y = 5;
+            console.log(x, y);
+            var soma = x + y;
+            var divisao = x / y;
+            var multiplicacao = x * y;
+            var subtracao = x - y; 
+            var resto = x % y;
+            
+            function incrementar(){
+                var x = 10;
+                x = x + 3; // x += 3 dar o mesmo resultado
+                console.log(x);
+            }
+            
+            function multiplicar(){
+                var x = 10;
+                x *= 3; // é igual a x = x * 3
+                console.log(x);
+            }
+
+            function dividir(){
+                var x = 10;
+                x /= 3; // é igual a x = x / 3
+                console.log(x);
+            }
+
+            console.log(soma);
+            console.log(divisao);
+            console.log(multiplicacao);
+            console.log(subtracao);
+            console.log(resto);
+            incrementar();
+            multiplicar();
+            dividir();
+
+        </script>
+    </body>
+</html>

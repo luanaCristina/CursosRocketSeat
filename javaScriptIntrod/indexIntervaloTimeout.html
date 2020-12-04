@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Intervalo timeout</title>
+    </head>
+    <body>
+        <script>
+            function exibeAlgo() {
+                console.log('Hello World');
+            }
+            //setInterval vai exibir diversas vezes no intervalo de 1 segundo.
+            setInterval(exibeAlgo, 1000); // quando a gente que levar o escopo da função para outro local a gente não usa os parenteses (). Ou seja, passa a função como parâmetro
+
+            setTimeout(exibeAlgo, 5000);
+
+        </script>
+    </body>
+</html>
